@@ -4,7 +4,9 @@
   <meta charset="utf-8" />
   <title>D3.JS | {% if page.title %}{{ page.title }}{% else %} Data Driven Documents {% endif %}</title>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-  <script src="js/app.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/js/ven/jquery.toc.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/js/d3/d3.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/js/app.js" type="text/javascript" charset="utf-8"></script>
   <link rel="stylesheet" href="/css/core.css" type="text/css" media="screen" title="no title" charset="utf-8" />
 </head>
 <body>
@@ -14,7 +16,7 @@
           <div class="wrap">
             <ul>
               <li><a href="/" title="Overview">Overview</a></li>
-              <li><a href="/guides.html" title="Guides">Guides</a></li>
+              <li><a href="/guides" title="Guides">Guides</a></li>
               <li><a href="/ex" title="Examples">Examples</a></li>
               <li><a href="/community.html" title="Community">Community</a></li>
             </ul>
@@ -34,6 +36,10 @@
       <div class="wrap">
         <div class="wrap-inner">
           <div id="main">{{ content }}</div>
+          <aside id="toc">
+            <h2>Table Of Contents</h2>
+            <ol id="toc-content"></ol>
+          </aside>
         </div>
       </div>
     </section>

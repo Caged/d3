@@ -2,4 +2,5 @@ safe: true
 source: .
 destination: _site
 lsi: false
-pygments: true
+pygments: false
+auto: true
