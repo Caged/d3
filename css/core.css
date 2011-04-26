@@ -57,7 +57,7 @@ body {
 }
 
 a {
-  color: #c00;
+  color: #006ea7;
 }
 
 
@@ -73,6 +73,14 @@ a {
 .wrap-inner {
   margin: 0 10px;
   position: relative;
+}
+
+.wrap-inner:after {
+  content: ".";
+  height: 0;
+  clear: both;
+  display: block;
+  visibility: hidden;
 }
 
 #content {
@@ -166,20 +174,6 @@ section#logo {
   @group footer
 ------------------------------------------------------------------------------------*/
 /* sticky footer */
-html, body {
-  height: 100%;
-}
-
-#site-wrap {
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  margin: 0 auto -50px;
-}
-
-footer, #push {
-  height: 10px;
-}
 
 footer {
   background: #eee;
@@ -242,14 +236,71 @@ aside#toc {
   margin-left: 720px;
 }
 
+aside#toc a {
+  text-decoration: none;
+}
+
 aside#toc > ol {
   margin-left: 20px;
   margin-top: 10px;
 }
 
-aside#toc ol li {
-  list-style-type: disc;
+aside#toc ol > li {
+  list-style-type: none;
   margin-bottom: 3px;
+  font-weight: bold;
+}
+
+aside#toc ol li ol {
+  margin-left: 20px;
+}
+
+aside#toc ol li ol li {
+  list-style-type: circle;
+  font-weight: normal;
+}
+
+.toc-top-link {
+  float: right;
+  display: block;
+  width: 14px;
+  height: 10px;
+  background: url(/img/top.png) no-repeat;
+  text-indent: -99999px;
+}
+
+#main h2 {
+  font-size: 140%;
+  margin-bottom: 20px;
+}
+
+.preview {
+  border-bottom: 1px solid #eee;
+  padding: 10px 0 20px 0;
+  margin: 10px 0;
+}
+
+.preview h3 {
+  font-size: 150%;
+  margin-bottom: 10px;
+}
+
+.preview:after {
+  content: ".";
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+}
+
+.preview .thumb {
+  float: left;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.preview .info {
+  margin-left: 260px;
 }
 
 /* @end */
