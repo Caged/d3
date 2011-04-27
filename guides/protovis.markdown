@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: guide
 title: For Protovis Users
 ---
 
