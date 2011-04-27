@@ -3,10 +3,10 @@ layout: site
 ---
 <section id="examples">
   <ul>
-    <li><a title="Calendar View" href="ex/calendar.html"><img src="/img/calendar-th.png"></a></li
-    ><li><a title="Chord Diagram" href="ex/chord.html"><img src="/img/chord-th.png"></a></li
-    ><li><a title="Choropleth Map" href="ex/choropleth.html"><img src="/img/choropleth-th.png"></a></li
-    ><li><a title="Force-Directed Graph" href="ex/force.html"><img src="/img/force-th.png"></a></li>
+    <li><a title="Calendar View" href="ex/calendar.html"><img src="img/calendar-th.png"></a></li
+    ><li><a title="Chord Diagram" href="ex/chord.html"><img src="img/chord-th.png"></a></li
+    ><li><a title="Choropleth Map" href="ex/choropleth.html"><img src="img/choropleth-th.png"></a></li
+    ><li><a title="Force-Directed Graph" href="ex/force.html"><img src="img/force-th.png"></a></li>
   </ul>
 </section>
 <!-- /examples -->
