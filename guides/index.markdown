@@ -7,7 +7,7 @@ title: Guides
 
 ## D3 Guides
 <div class="preview">
-  <a class="thumb" href="../guides/bar-1.html"><img src="/guides/bar-1.png"/></a>
+  <a class="thumb" href="../guides/bar-1.html"><img src="../guides/bar-1.png"/></a>
   <div class="info">
     <h3><a href="../guides/bar-1.html">A Bar Chart, Part 1</a></h3>
     <p>Learn the basics of D3 with this introductory tutorial. Using the
