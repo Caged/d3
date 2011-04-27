@@ -159,7 +159,7 @@ header nav ul li a:hover {
 
 section#logo {
   padding: 19px 0 15px 0;
-  background: url(/img/hdr-bg.png) repeat-x;
+  background: url(../img/hdr-bg.png) repeat-x;
   border-bottom: 1px solid #cdcdcd;
   margin-bottom: 20px;
 }
@@ -265,7 +265,7 @@ aside#toc ol li ol li {
   display: none;
   width: 14px;
   height: 10px;
-  background: url(/img/top.png) no-repeat;
+  background: url(../img/top.png) no-repeat;
   text-indent: -99999px;
 }
 
