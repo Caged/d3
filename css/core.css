@@ -262,7 +262,7 @@ aside#toc ol li ol li {
 
 .toc-top-link {
   float: right;
-  display: block;
+  display: none;
   width: 14px;
   height: 10px;
   background: url(/img/top.png) no-repeat;
@@ -301,6 +301,19 @@ aside#toc ol li ol li {
 
 .preview .info {
   margin-left: 260px;
+}
+
+/* @end */
+
+/*------------------------------------------------------------------------------------
+  @group code
+------------------------------------------------------------------------------------*/
+code {
+  font-family: monospace;
+}
+
+.highlight pre {
+  overflow-x: auto;
 }
 
 /* @end */
